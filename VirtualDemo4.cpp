@@ -22,10 +22,10 @@ class Base
     { cout <<" Derived fun\n";}
     void sun()
     { cout <<"Derived sun \n";}
-     virtual void mun()
-    { cout <<"Base mun \n";}
-    void tun()
-    { cout <<"Base tun \n";}
+    // virtual void mun()
+   // { cout <<"Base mun \n";}
+   // void tun()
+   // { cout <<"Base tun \n";}
     
   };
 int main()
@@ -42,8 +42,8 @@ int main()
      bp-> gun();
      bp-> sun();
      bp-> run();
-     bp-> mun();  // error
-     bp-> bun();    // error
+     //bp-> mun();  // error
+    // bp-> bun();    // error
      
      
 
